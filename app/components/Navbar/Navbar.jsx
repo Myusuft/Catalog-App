@@ -8,7 +8,7 @@ const Navbar = () => {
         justifyContent: 'space-between',
         alignItems: 'center',
         backgroundColor: 'black',
-        color: 'white',
+
         height: '80px',
         padding: '0 20px',
     };
@@ -16,7 +16,7 @@ const Navbar = () => {
     return (
         <div className='nav' style={nav}>
             <div className="logo">
-                <Image src="/next.svg" alt="logo" style={logo} />
+                <Image src="/next.svg" alt="logo" />
                 {/* <img src="/logo192.png" alt="" /> */}
             </div>
             <div className="navList">
