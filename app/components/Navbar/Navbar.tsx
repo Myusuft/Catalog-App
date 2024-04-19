@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className="navList">
                 <ul>
                     <li><Link href="/home">Home</Link></li>
-                    <li><a href="#">About</a></li>
+                    <li><a href="#">Categories</a></li>
                     <li><a href="#">Services</a></li>
                 </ul>
             </div>
