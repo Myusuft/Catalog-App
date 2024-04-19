@@ -45,6 +45,7 @@ const Product = () => {
   };
 
   const handlePrev = () => {
+    const maxPage = Math.ceil(products.length / 3); 
     setCurrentPage((prevPage) => (prevPage === 1 ? maxPage : prevPage - 1));
   };
 
