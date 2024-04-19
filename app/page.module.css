@@ -5,6 +5,9 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff; /* White background */
 }
 
 .description {
@@ -108,7 +111,42 @@
 .logo {
   position: relative;
 }
-/* Enable hover only on non-touch devices */
+
+.splashScreen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.splashScreenContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.usersButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.pageContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
